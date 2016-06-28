@@ -1,0 +1,23 @@
+{
+  "name": "css-classnames-obfuscator",
+  "version": "1.0.0",
+  "description": "Obfuscator for CSS class names",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -R spec ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyxem/css-classnames-obfuscator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anyxem/css-classnames-obfuscator/issues"
+  },
+  "homepage": "https://github.com/anyxem/css-classnames-obfuscator#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
