@@ -12,4 +12,16 @@ describe('#basic', function() {
 
     chai.expect(basic).to.deep.equal(expect);
   });
+
+  it('from file', function() {
+    classes = require('./data.json');
+    expect = {
+      asd: 'a',
+      fgh: 'b'
+    }
+    var basic = csscno(classes);
+
+    chai.expect(basic).to.deep.equal(expect);
+  });
+
 });
