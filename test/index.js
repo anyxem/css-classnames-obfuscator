@@ -13,15 +13,14 @@ describe('#basic', function() {
     chai.expect(basic).to.deep.equal(expect);
   });
 
-  it('from file', function() {
+  it('from file shortest new name', function() {
     classes = require('./data.json');
-    expect = {
-      asd: 'a',
-      fgh: 'b'
-    }
     var basic = csscno(classes);
+    var mostCommonClass = 'wwwwww';
+    var firstShortestNewClassName = 'a';
 
-    chai.expect(basic).to.deep.equal(expect);
+    chai.expect(basic[mostCommonClass]).to.deep.equal(firstShortestNewClassName);
   });
+
 
 });
