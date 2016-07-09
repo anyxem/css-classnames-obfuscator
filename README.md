@@ -1,3 +1,5 @@
+Test: [![Build Status](https://travis-ci.org/anyxem/css-classnames-obfuscator.svg?branch=master)](https://travis-ci.org/anyxem/css-classnames-obfuscator)
+
 # CSS classnames obfuscator
 Obfuscator for CSS class names
 
