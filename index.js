@@ -1,5 +1,5 @@
 /**
-  * @param {Array} data – массив CSS классов
+  * @param {Array} data
   */
 module.exports = function(data) {
 
